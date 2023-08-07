@@ -11,3 +11,8 @@ p {
 .about > .container > .about-text {
     font-size: 2rem;
 }
+
+input:focus:required:invalid {
+    border: 2px solid red;
+}
+
